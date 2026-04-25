@@ -2,7 +2,7 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>自己紹介の自己紹介</title>
+        <title>堀場陸斗の自己紹介</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -18,7 +18,7 @@
         <main>
             <seciton id="profile">
                 <h2>プロフィール</h2>
-                <img src="images/profile.jpg" alt="当時3歳の私がマックのポテトを食べる様子">
+                <img src="images/profile.jpg" alt="３歳の私がマクドナルドのポテトを食べる様子">
                 <table border="1" style="border-collapse: collapse;">
                     <tr>
                         <th scope="low">名前</th>
@@ -103,16 +103,16 @@
                 <form>
                     <div>
                         <label for="name">お名前</label>
-                        <input id="name" type="text" placeholder="お名前を入力">
+                        <input id="name" type="text" name="name" placeholder="お名前を入力">
                     </div>
                     <div>
-                        <label for="mail">メールアドレス</label>
-                        <input id="mail" type="email" placeholder="メールアドレスを入力">
+                        <label for="email">メールアドレス</label>
+                        <input id="email" type="email" name="email" placeholder="メールアドレスを入力">
                     </div>
                     <div>
                         <label for="reply">返信を希望しますか？</label>
-                        <input type="radio" name="reply">希望する
-                        <input type="radio" name="reply">希望しない
+                        <input type="radio" id="request" name="reply" value="request">希望する
+                        <input type="radio" id="not-request" name="reply" value="not-request">希望しない
                     </div>
                     <div>
                         <label for="detail">お問い合わせ内容</label>
