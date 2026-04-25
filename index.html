@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>自己紹介の自己紹介</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>堀場陸斗の自己紹介</h1>
+            <nav>
+                <a href="index.html#profile">プロフィール</a>
+                <a href="index.html#my-fav">好きなもの/嫌いなもの</a>                
+                <a href="index.html#works">作品</a>
+                <a href="index.html#contact">お問い合わせ</a>
+            </nav>
+        </header>
+        <main>
+            <seciton id="profile">
+                <h2>プロフィール</h2>
+                <img src="images/profile.jpg" alt="当時3歳の私がマックのポテトを食べる様子">
+                <table border="1" style="border-collapse: collapse;">
+                    <tr>
+                        <th scope="low">名前</th>
+                        <td>堀場陸斗（ほりば りくと）</td>
+                    </tr>
+                    <tr>
+                        <th scope="low" rowspan="2">大学</th>
+                        <td>愛知工業大学 情報科学部 情報科学科 メディア情報専攻 2年</td>
+                    </tr>
+                    <tr>
+                        <td>学籍番号：X25086</td>
+                    </tr>
+                    <tr>
+                        <th scope="low">生年月日</th>
+                        <td>2006年8月7日</td>
+                    </tr>
+                    <tr>
+                        <th scope="low">出身地</th>
+                        <td>愛知県名古屋市</td>
+                    </tr>
+                </table>
+                <p>よろしくお願いします！</p>
+            </seciton>
+            <section id="my-fav">
+                <h2>好きなもの/嫌いなもの</h2>
+                <p>表にまとめてみました。</p>
+                <table border="1" style="border-collapse: collapse;">
+                    <thead>
+                        <th colspan="2">カテゴリー</th>
+                        <th>もの</th>
+                        <th>詳細</th>
+                    </thead>
+                    <tr>
+                        <th rowspan="4">すきなもの</th>
+                        <th rowspan="2">食べ物</th>
+                        <td>すいか</td>
+                        <td>甘い</td>
+                    </tr>
+                    <tr>
+                        <td>オールドファッションハニー（ミスド）</td>
+                        <td>ミスドで一番おいしいと思っています</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">音楽</th>
+                        <td>King Gnu</td>
+                        <td>三文小説、ねっこ など</td>
+                    </tr>
+                    <tr>
+                        <td>ヨルシカ</td>
+                        <td>五月は花緑青の窓辺から、ブレーメン など</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" rowspan="2">嫌いなもの</th>
+                        <td>眼科の眼圧測定</td>
+                        <td>空気がいきなり出て怖いから</td>
+                    </tr>
+                    <tr>
+                        <td>注射</td>
+                        <td>痛いから</td>
+                    </tr>
+                </table>
+                <h3>好きなWebサイト</h3>
+                <ul>
+                    <li><a href="https://muuuuu.org/">MUUUUU.ORG</a></li>
+                    <li><a href="https://www.apple.com/jp/">apple.com</a></li>
+                    <li><a href="https://suke.work/">suke.work</a></li>
+                </ul>
+                <p>Appleのサイトは特にメニューのアニメーションが好きです。</p>
+                <video src="images/apple.mov" width="500" controls autoplay></video>
+                <h3>好きなYoutube</h3>
+                <p>月ノ美兎の動画が好きです</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/B4IocPyXoxA?si=93M0MRH442NQgci-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+            <section id="works">
+                <h2>作品</h2>
+                <p>春休みの期間中に自分で使う家計簿もどきのwebアプリを作成しました。財布を分析するからAnalyWalletと名付けました。</p>
+                <img src="images/works_01.png" alt="自作webアプリ「AnnalyWallet」のダッシュボード画面" loading="lazy">
+                <img src="images/works_02.png" alt="自作webアプリ「AnnalyWallet」の収支登録、登録履歴画面" loading="lazy">
+            </section>
+            <section id="contact">
+                <h2>お問い合わせ</h2>
+                <form>
+                    <div>
+                        <label for="name">お名前</label>
+                        <input id="name" type="text" placeholder="お名前を入力">
+                    </div>
+                    <div>
+                        <label for="mail">メールアドレス</label>
+                        <input id="mail" type="email" placeholder="メールアドレスを入力">
+                    </div>
+                    <div>
+                        <label for="reply">返信を希望しますか？</label>
+                        <input type="radio" name="reply">希望する
+                        <input type="radio" name="reply">希望しない
+                    </div>
+                    <div>
+                        <label for="detail">お問い合わせ内容</label>
+                        <textarea id="detail" placeholder="お問い合わせ内容を入力"></textarea>
+                    </div>
+                    <button tyoe="submit">送信する</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>メール：<a href="mailto:x25086xx@aitech.ac.jp">x25086xx@aitech.ac.jp</a></p>
+            <p>©︎ 2026 堀場陸斗の自己紹介</p>
+        </footer>
+    </body>
+</html>
